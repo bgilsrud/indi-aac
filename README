@@ -1,0 +1,23 @@
+Arduino Astro Control INDI Driver
+=================================
+This package provides the INDI driver for the Arduino Astro Control autoguider
+interface.
+
+Requirements
+============
+* INDI
+
+
+Installation
+============
+See INSTALL
+
+
+How to Use
+==========
+Once installed, the AAC INDI driver can be used by an INDI client such as
+KStars (Ekos) or OpenPHD. It can also be used manually by invoking it via the 
+indi_server:
+$ indi_server indi_ffmv_ccd
+
+
